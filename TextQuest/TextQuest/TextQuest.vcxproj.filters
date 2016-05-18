@@ -15,22 +15,84 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Text Include="ReadMe.txt" />
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Character.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Dragon.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Enemy.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\EnemyFactory.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Event.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\GiantSpider.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Orc.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Player.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Vocation.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Dragon.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Enemy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\EnemyFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\GiantSpider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Orc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Vocation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="TextQuest.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
+    <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\events.txt" />
+    <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\saves.txt" />
+    <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\vocations.txt" />
   </ItemGroup>
 </Project>

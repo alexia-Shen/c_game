@@ -1,0 +1,4 @@
+Peter,Warrior,100,120,0
+Tim,Mage,80,60,100
+Grog,Rogue,60,80,50
+abc,Warrior,100,120,0
