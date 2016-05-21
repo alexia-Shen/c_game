@@ -8,9 +8,11 @@ Player::Player() : Character() {
 }
 
 // construct a player with the default stats for the specified vocation
-Player::Player(string name, Vocation* vocation) 
+Player::Player(string name, Vocation* vocation)
 	: Character(name, vocation->getDefaultHealth(), vocation->getDefaultStrength(), vocation->getDefaultMagic())
-	, m_vocation(vocation) {
+	, m_vocation(vocation){
+	
+
 }
 
 //Prompts the player to choose a target to attack and applies damage to that target
@@ -43,4 +45,22 @@ void Player::attack(vector<Character*> targets) {
 
 Vocation* Player::getVocation() {
 	return m_vocation;
+}
+
+void Player::setPositionX(int x)
+{
+	positionX = x;
+}
+void Player::setPositionY(int y)
+{
+	positionY = y;
+}
+
+int Player::getPositionX()
+{
+	return positionX;
+}
+int Player::getPositionY()
+{
+	return positionY;
 }

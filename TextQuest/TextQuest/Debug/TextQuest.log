@@ -1,22 +1,22 @@
-﻿Build started 5/17/2016 11:23:29 PM.
-     1>Project "C:\Users\Stewart\Desktop\c++\c_game\TextQuest\TextQuest\TextQuest.vcxproj" on node 2 (Rebuild target(s)).
+﻿Build started 5/20/2016 9:38:51 PM.
+     1>Project "C:\Users\Stewart\Desktop\c++\c_game\TextQuest\TextQuest\TextQuest.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         S:\visual_studio_13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\ClassyTextQuest\ClassyTextQuest\Character.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Dragon.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Enemy.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\EnemyFactory.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Event.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\GiantSpider.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Main.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Orc.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Player.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Vocation.cpp Game.cpp Room.cpp
-         Room.cpp
+         S:\visual_studio_13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Game.cpp
          Game.cpp
-         Vocation.cpp
-         Player.cpp
-         Orc.cpp
-         Main.cpp
-     1>c:\users\stewart\desktop\c++\classytextquest\classytextquest\main.cpp(18): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-         GiantSpider.cpp
-         Event.cpp
-         EnemyFactory.cpp
-         Enemy.cpp
-         Dragon.cpp
-         Character.cpp
-         Generating Code...
-     1>c:\users\stewart\desktop\c++\classytextquest\classytextquest\enemyfactory.cpp(20): warning C4715: 'EnemyFactory::makeEnemy' : not all control paths return a value
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(118): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(124): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(130): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(143): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(149): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(168): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(188): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(213): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(228): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(236): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(266): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(273): warning C4018: '<' : signed/unsigned mismatch
        Link:
          S:\visual_studio_13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stewart\Desktop\c++\c_game\TextQuest\Debug\TextQuest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Stewart\Desktop\c++\c_game\TextQuest\Debug\TextQuest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stewart\Desktop\c++\c_game\TextQuest\Debug\TextQuest.lib" /MACHINE:X86 Debug\Character.obj
          Debug\Dragon.obj
@@ -24,15 +24,15 @@
          Debug\EnemyFactory.obj
          Debug\Event.obj
          Debug\GiantSpider.obj
-         Debug\Main.obj
          Debug\Orc.obj
-         Debug\Player.obj
          Debug\Vocation.obj
          Debug\Game.obj
+         Debug\Player.obj
          Debug\Room.obj
+         Debug\TestMain.obj
          TextQuest.vcxproj -> C:\Users\Stewart\Desktop\c++\c_game\TextQuest\Debug\TextQuest.exe
-     1>Done Building Project "C:\Users\Stewart\Desktop\c++\c_game\TextQuest\TextQuest\TextQuest.vcxproj" (Rebuild target(s)).
+     1>Done Building Project "C:\Users\Stewart\Desktop\c++\c_game\TextQuest\TextQuest\TextQuest.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:05.35
+Time Elapsed 00:00:00.99

@@ -70,11 +70,11 @@
     <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\EnemyFactory.h" />
     <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Event.h" />
     <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\GiantSpider.h" />
-    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Main.h" />
     <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Orc.h" />
-    <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Player.h" />
     <ClInclude Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Vocation.h" />
     <ClInclude Include="Game.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="Player.h" />
     <ClInclude Include="Room.h" />
   </ItemGroup>
   <ItemGroup>
@@ -84,12 +84,13 @@
     <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\EnemyFactory.cpp" />
     <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Event.cpp" />
     <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\GiantSpider.cpp" />
-    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Main.cpp" />
     <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Orc.cpp" />
-    <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Player.cpp" />
     <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Vocation.cpp" />
     <ClCompile Include="Game.cpp" />
+    <ClCompile Include="Item.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="Room.cpp" />
+    <ClCompile Include="TestMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\events.txt" />

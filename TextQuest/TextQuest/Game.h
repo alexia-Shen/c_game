@@ -8,9 +8,11 @@
 #include <iostream>
 #include <string>
 #include <vector>
+
 #include "Enemy.h"
 #include "Event.h"
 #include "Room.h"
+#include "Player.h"
 
 using namespace std;
 
@@ -18,12 +20,21 @@ class Game {
 private:
 	static Game* newGame;
 	vector<vector<Room* > > map;
+	vector<string> flogMap;
+	Player* player;
+
+	bool cheatMode;
 public:
 	Game();
 	static Game* createNewGame();
 	void fillMap(int roomSize);
-	void fillRow(int roomSize, vector<Room* > &row, vector<Room* > &lastRow);
+	void createDoors(int roomSize);
 	void printMap();
-
+	void printFlogMap();
+	void createFlogMap();
+	void createPlayer(int roomSize);
+	void playerMove(char dir);
+	void setCheatMode();
+	bool getCheatMode();
 };
 #endif

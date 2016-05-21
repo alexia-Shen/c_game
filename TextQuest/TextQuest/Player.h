@@ -7,6 +7,7 @@
 
 #include <iostream>
 #include <string>
+#include <vector>
 
 #include "Character.h"
 #include "Vocation.h"
@@ -18,11 +19,20 @@ private:
 	// we keep track of the player's vocation by a pointer to one of the valid vocations loaded from file
 	// this also gives us access to the default stats if we wanted to restore the character stats to defaults for the vocation (e.g. to full health)
 	Vocation* m_vocation;
+	int positionX;
+	int positionY;
 public:
 	Player();
 	Player(string name, Vocation*);
 	virtual void attack(vector<Character*> targets);
 	Vocation* getVocation();
+
+	void setPositionX(int x);
+	void setPositionY(int y);
+	int getPositionX();
+	int getPositionY();
+
+	vector<>
 };
 
 #endif

@@ -8,11 +8,40 @@
 
 Room::Room()
 {
+	row = 0;
+	column = 0;
 	east = NULL;
 	west = NULL;
 	north = NULL;
 	south = NULL;
-	fillEnemis();
+	//fillEnemis();
+}
+
+Room::Room(int c, int r)
+{
+	row = r;
+	column = c;
+	east = NULL;
+	west = NULL;
+	north = NULL;
+	south = NULL;
+	visited = false;
+	//fillEnemis();
+}
+//setter and getter
+void Room::setRow(int r)
+{
+	row = r;
+}
+
+void Room::setColumn(int c)
+{
+	column = c;
+}
+
+void Room::setVisited(bool v)
+{
+	visited  = v;
 }
 void Room::setEast(Room* room)
 {
@@ -30,6 +59,21 @@ void Room::setNorth(Room* room)
 void Room::setSouth(Room* room)
 {
 	south = room;
+}
+
+int Room::getRow()
+{
+	return row;
+}
+
+int Room::getColumn()
+{
+	return column;
+}
+
+bool Room::getVisited()
+{
+	return visited;
 }
 
 Room* Room::getEast()
@@ -59,6 +103,11 @@ void Room::fillEnemis()
 void Room::fillEvent(Event* e)
 {
 	events.push_back(e);
+}
+
+bool Room::allWall()
+{
+	return (east == NULL && west == NULL && north == NULL && south == NULL);
 }
 
 
