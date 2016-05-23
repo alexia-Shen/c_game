@@ -11,6 +11,7 @@
 
 #include "Character.h"
 #include "Vocation.h"
+#include "Item.h"
 
 using namespace std;
 
@@ -26,13 +27,12 @@ public:
 	Player(string name, Vocation*);
 	virtual void attack(vector<Character*> targets);
 	Vocation* getVocation();
+	//vector<Item* > inventory;
 
 	void setPositionX(int x);
 	void setPositionY(int y);
 	int getPositionX();
 	int getPositionY();
-
-	vector<>
 };
 
 #endif

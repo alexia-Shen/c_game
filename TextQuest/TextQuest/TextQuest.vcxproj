@@ -75,7 +75,9 @@
     <ClInclude Include="Game.h" />
     <ClInclude Include="Item.h" />
     <ClInclude Include="Player.h" />
+    <ClInclude Include="Potion.h" />
     <ClInclude Include="Room.h" />
+    <ClInclude Include="TestMain.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Character.cpp" />
@@ -89,13 +91,14 @@
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="Item.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Potion.cpp" />
     <ClCompile Include="Room.cpp" />
     <ClCompile Include="TestMain.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\events.txt" />
-    <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\saves.txt" />
     <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\vocations.txt" />
+    <Text Include="saves.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

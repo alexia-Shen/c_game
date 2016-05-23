@@ -51,11 +51,11 @@ public:
 	int getRow();
 	int getColumn();
 	bool getVisited();
-
 	void fillEvent(Event* e);
 	bool allWall();
 
-	
+	vector<Enemy* > getEnemies();
+	vector<Event* > getEvents();
 };
 
 #endif

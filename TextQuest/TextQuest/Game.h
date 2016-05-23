@@ -32,9 +32,15 @@ public:
 	void printMap();
 	void printFlogMap();
 	void createFlogMap();
-	void createPlayer(int roomSize);
+	void locatePlayer(Player* p, int positionX = -1, int positionY = -1);
 	void playerMove(char dir);
 	void setCheatMode();
 	bool getCheatMode();
+	bool checkRoom();
+	void fight();
+	void executeEvents();
+	void setPlayer(Player* p);
+	Player* getPlayer();
+
 };
 #endif

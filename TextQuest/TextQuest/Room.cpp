@@ -14,7 +14,7 @@ Room::Room()
 	west = NULL;
 	north = NULL;
 	south = NULL;
-	//fillEnemis();
+	fillEnemis();
 }
 
 Room::Room(int c, int r)
@@ -26,7 +26,7 @@ Room::Room(int c, int r)
 	north = NULL;
 	south = NULL;
 	visited = false;
-	//fillEnemis();
+	fillEnemis();
 }
 //setter and getter
 void Room::setRow(int r)
@@ -108,6 +108,16 @@ void Room::fillEvent(Event* e)
 bool Room::allWall()
 {
 	return (east == NULL && west == NULL && north == NULL && south == NULL);
+}
+
+vector<Enemy* > Room::getEnemies()
+{
+	return enemies;
+}
+
+vector<Event* > Room::getEvents()
+{
+	return events;
 }
 
 

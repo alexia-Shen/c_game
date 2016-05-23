@@ -64,3 +64,4 @@ int Player::getPositionY()
 {
 	return positionY;
 }
+

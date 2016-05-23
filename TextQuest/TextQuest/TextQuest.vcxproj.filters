@@ -51,6 +51,12 @@
     <ClInclude Include="Item.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="Potion.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TestMain.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\ClassyTextQuest\ClassyTextQuest\Character.cpp">
@@ -92,10 +98,13 @@
     <ClCompile Include="Item.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Potion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\events.txt" />
-    <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\saves.txt" />
     <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\vocations.txt" />
+    <Text Include="saves.txt" />
   </ItemGroup>
 </Project>
