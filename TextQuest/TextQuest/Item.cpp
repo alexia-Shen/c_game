@@ -3,17 +3,18 @@
 #include <iostream>
 #include <string>
 #include "Item.h"
-#include "Player.h"
 
 using namespace std;
 
 Item::Item()
 {
 }
-Item::Item(string n, string d, int m)
+
+Item::Item(string n, string d, char t, int m)
 {
 	name = n;
 	description = d;
+	type = t;
 	modifier = m;
 }
 
@@ -31,7 +32,10 @@ void Item::setmodifier(int m)
 {
 	modifier = m;
 }
-
+void Item::setType(char t)
+{
+	type = t;
+}
 string Item::getName()
 {
 	return name;
@@ -45,6 +49,10 @@ string Item::getDescription()
 int Item::getModifier()
 {
 	return modifier;
+}
+char Item::getType()
+{
+	return type;
 }
 int Item::modify(int base)
 {

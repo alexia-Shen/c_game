@@ -1,0 +1,3 @@
+Peter,Gaint Sword,Increase your strength by 5 points,s,5
+Peter,Cured Blade,Increase your strength by 8 points but decrease health at same timep,p,8
+Tim,Gaint Sword,Increase your strength by 5 points,s,5

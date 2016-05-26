@@ -51,10 +51,7 @@
     <ClInclude Include="Item.h">
       <Filter>Source Files</Filter>
     </ClInclude>
-    <ClInclude Include="Potion.h">
-      <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="TestMain.h">
+    <ClInclude Include="Main.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -86,9 +83,6 @@
     <ClCompile Include="Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TestMain.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -98,7 +92,7 @@
     <ClCompile Include="Item.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Potion.cpp">
+    <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -106,5 +100,7 @@
     <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\events.txt" />
     <Text Include="..\..\..\ClassyTextQuest\ClassyTextQuest\vocations.txt" />
     <Text Include="saves.txt" />
+    <Text Include="playerMap.txt" />
+    <Text Include="playerInventory.txt" />
   </ItemGroup>
 </Project>

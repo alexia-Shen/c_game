@@ -9,25 +9,26 @@
 using namespace std;
 class Item
 {
-protected: 
-
+private:
 	string name;
 	string description;
+	char type;
 	int modifier;
 
 public:
 
 	Item();
-	Item(string n, string d, int m);
+	Item(string n, string d, char t, int m);
 	int modify(int base);
 
 	void setName(string n);
 	void setDescription(string d);
-	void setRank(int r);
+	void setType(char t);
 	void setmodifier(int m);
-	
+
 	string getName();
 	string getDescription();
+	char getType();
 	int getRank();
 	int getModifier();
 };

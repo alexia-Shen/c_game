@@ -1,6 +1,5 @@
 // Player.cpp
-// CPlusPlusQuest (A2 Sample Solution)
-// Created by Peter Hoghton on 22/04/2016
+
 
 #include "Player.h"
 
@@ -55,6 +54,10 @@ void Player::setPositionY(int y)
 {
 	positionY = y;
 }
+void Player::addItem(Item* i)
+{
+	inventory.push_back(i);
+}
 
 int Player::getPositionX()
 {
@@ -63,5 +66,32 @@ int Player::getPositionX()
 int Player::getPositionY()
 {
 	return positionY;
+}
+
+vector<Item* > Player::getItems()
+{
+	return inventory;
+}
+
+void Player::useItem(int index)
+{
+	char type = inventory[index]->getType();
+	
+	//different effect based on item type
+	switch (type)
+	{
+	case 's':
+		setStrength(getStrength() + inventory[index]->getModifier());
+	case 'm':
+		setMagic(getMagic() + inventory[index]->getModifier());
+	case 'p':
+		setStrength(getStrength() + inventory[index]->getModifier());
+		setHealth(getHealth() - (inventory[index]->getModifier()*3));
+		break;
+	default:
+		break;
+	}
+	//delete this item from the list after use;
+	inventory.erase(inventory.begin()+index);
 }
 

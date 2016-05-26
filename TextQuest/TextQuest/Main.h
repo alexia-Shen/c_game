@@ -1,20 +1,34 @@
-// Main.h
-// CPlusPlusQuest (A2 Sample Solution)
-// Created by Peter Hoghton on 22/04/2016
+#include <iostream>
+#include <fstream>
+#include <sstream>
+#include <time.h>
+#include <vector>
+#include<conio.h>
+#include<windows.h>
+#include "Game.h"
+#include "Room.h"
+#include "Vocation.h"
+#include "Player.h"
 
-#ifndef MAIN_H
-#define MAIN_H
 
-#include <string>
+vector<Vocation* > vocations;
+vector<Event* > events;
+Game* gm;
 
-using namespace std;
 
-void startGame();
-void gameLoop();
-void fight();
+
+int countLinesInFile(string file);
 void createCharacter();
 void loadGame();
-void saveGame();
-int countLinesInFile(string file);
+void startGame();
 
-#endif
+void loadVocations();
+void loadEvents();
+void fight(Room* room);
+
+void gameLoop();
+void mapLoop(bool &keepMap);
+void gameMenu();
+void startGame();
+void displayPlayerInfo();
+

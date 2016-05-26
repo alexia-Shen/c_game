@@ -6,6 +6,8 @@
 #define GAME_H
 
 #include <iostream>
+#include <fstream>
+#include <sstream>
 #include <string>
 #include <vector>
 
@@ -39,8 +41,16 @@ public:
 	bool checkRoom();
 	void fight();
 	void executeEvents();
+	void useItem();
 	void setPlayer(Player* p);
-	Player* getPlayer();
 
+	void saveGame();
+	void saveMap();
+	void saveInventory();
+	bool loadMap(string mapOwner);
+	void loadEvents();
+	void loadInventory();
+
+	Player* getPlayer();
 };
 #endif

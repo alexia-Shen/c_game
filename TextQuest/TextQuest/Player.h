@@ -20,19 +20,24 @@ private:
 	// we keep track of the player's vocation by a pointer to one of the valid vocations loaded from file
 	// this also gives us access to the default stats if we wanted to restore the character stats to defaults for the vocation (e.g. to full health)
 	Vocation* m_vocation;
+	vector<Item* > inventory;
 	int positionX;
 	int positionY;
+
 public:
 	Player();
 	Player(string name, Vocation*);
 	virtual void attack(vector<Character*> targets);
 	Vocation* getVocation();
-	//vector<Item* > inventory;
 
 	void setPositionX(int x);
 	void setPositionY(int y);
 	int getPositionX();
 	int getPositionY();
+	vector<Item* > getItems();
+
+	void addItem(Item* i);
+	void useItem(int index);
 };
 
 #endif

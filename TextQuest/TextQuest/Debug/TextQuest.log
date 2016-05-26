@@ -1,9 +1,49 @@
-﻿Build started 5/22/2016 11:27:17 PM.
-     1>Project "C:\Users\Stewart\Desktop\c++\c_game\TextQuest\TextQuest\TextQuest.vcxproj" on node 2 (Build target(s)).
+﻿Build started 5/25/2016 11:15:48 PM.
+     1>Project "C:\Users\Stewart\Desktop\c++\c_game\TextQuest\TextQuest\TextQuest.vcxproj" on node 2 (Rebuild target(s)).
      1>ClCompile:
-         S:\visual_studio_13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt TestMain.cpp
-         TestMain.cpp
-     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\testmain.cpp(216): warning C4101: 'healthModifier' : unreferenced local variable
+         S:\visual_studio_13\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\ClassyTextQuest\ClassyTextQuest\Character.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Dragon.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Enemy.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\EnemyFactory.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Event.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\GiantSpider.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Orc.cpp ..\..\..\ClassyTextQuest\ClassyTextQuest\Vocation.cpp Game.cpp Item.cpp Player.cpp Room.cpp Main.cpp
+         Main.cpp
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\main.cpp(218): warning C4101: 'healthModifier' : unreferenced local variable
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\main.cpp(349): warning C4018: '<' : signed/unsigned mismatch
+         Room.cpp
+         Player.cpp
+         Item.cpp
+         Game.cpp
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(22): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(46): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(129): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(135): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(141): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(152): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(158): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(174): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(179): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(185): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(194): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(218): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(233): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(241): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(254): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(284): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(289): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(351): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(440): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(447): warning C4018: '<=' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(524): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(526): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(567): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(599): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\stewart\desktop\c++\c_game\textquest\textquest\game.cpp(602): warning C4244: 'initializing' : conversion from 'double' to 'int', possible loss of data
+         Vocation.cpp
+         Orc.cpp
+         GiantSpider.cpp
+         Event.cpp
+         EnemyFactory.cpp
+         Enemy.cpp
+         Dragon.cpp
+         Character.cpp
+         Generating Code...
+     1>c:\users\stewart\desktop\c++\classytextquest\classytextquest\enemyfactory.cpp(20): warning C4715: 'EnemyFactory::makeEnemy' : not all control paths return a value
        Link:
          S:\visual_studio_13\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Stewart\Desktop\c++\c_game\TextQuest\Debug\TextQuest.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Stewart\Desktop\c++\c_game\TextQuest\Debug\TextQuest.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Stewart\Desktop\c++\c_game\TextQuest\Debug\TextQuest.lib" /MACHINE:X86 Debug\Character.obj
          Debug\Dragon.obj
@@ -16,12 +56,11 @@
          Debug\Game.obj
          Debug\Item.obj
          Debug\Player.obj
-         Debug\Potion.obj
          Debug\Room.obj
-         Debug\TestMain.obj
+         Debug\Main.obj
          TextQuest.vcxproj -> C:\Users\Stewart\Desktop\c++\c_game\TextQuest\Debug\TextQuest.exe
-     1>Done Building Project "C:\Users\Stewart\Desktop\c++\c_game\TextQuest\TextQuest\TextQuest.vcxproj" (Build target(s)).
+     1>Done Building Project "C:\Users\Stewart\Desktop\c++\c_game\TextQuest\TextQuest\TextQuest.vcxproj" (Rebuild target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.15
+Time Elapsed 00:00:06.77

@@ -1,3 +1,4 @@
-Peter,Warrior,100,120,0,Peter,1,6
-Tim,Mage,80,60,100
-Grog,Rogue,60,80,50
+Grog,Rogue,-6,80,80,Grog,3,3
+URICA,Rogue,104,80,50,URICA,3,7
+Peter,Warrior,245,130,10,Peter,5,5
+Tim,Mage,146,68,100,Tim,3,4
